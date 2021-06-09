@@ -208,6 +208,8 @@ namespace CustomCollection.CustomCollection
             try
             {
                 this._items.Clear();
+                this._idItems.Clear();
+                this._nameItems.Clear();
             }
             finally
             {
